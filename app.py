@@ -65,9 +65,18 @@ div[data-testid="stMetricDelta"] {
     color: #5b6b85 !important;
 }
     .insight-box {
-        background: #eef4ff; border-left: 4px solid #3a6cf0; border-radius: 6px;
-        padding: 0.85rem 1.1rem; margin: 0.6rem 0 1rem 0; font-size: 0.95rem;
-    }
+    background: #eef4ff;
+    color: #1a2b4c !important;
+    border-left: 4px solid #3a6cf0;
+    border-radius: 6px;
+    padding: 0.85rem 1.1rem;
+    margin: 0.6rem 0 1rem 0;
+    font-size: 0.95rem;
+}
+
+    .insight-box * {
+        color: #1a2b4c !important;
+}
     .anomaly-box {
         background: #fff5f2; border-left: 4px solid #e0562f; border-radius: 6px;
         padding: 0.85rem 1.1rem; margin: 0.6rem 0 1rem 0; font-size: 0.95rem;
