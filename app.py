@@ -82,9 +82,29 @@ div[data-testid="stMetricDelta"] {
         padding: 0.85rem 1.1rem; margin: 0.6rem 0 1rem 0; font-size: 0.95rem;
     }
     .rec-card {
-        background: #ffffff; border: 1px solid #e6eaf1; border-radius: 10px;
-        padding: 1.1rem 1.3rem; margin-bottom: 1.1rem;
-    }
+    background: #ffffff;
+    color: #1a2b4c !important;
+    border: 1px solid #e6eaf1;
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 1.1rem;
+}
+
+.rec-card * {
+    color: #1a2b4c !important;
+}
+
+.rec-card .rec-label {
+    color: #3a6cf0 !important;
+}
+
+.rec-card p {
+    color: #1a2b4c !important;
+}
+
+.rec-card h3 {
+    color: #1a2b4c !important;
+}
     .rec-label { font-size: 0.72rem; font-weight: 700; color: #3a6cf0; letter-spacing: 0.04em; text-transform: uppercase; }
     .footer-disclaimer {
         margin-top: 2.5rem; padding: 1rem 1.2rem; background: #f7f9fc; border-radius: 8px;
