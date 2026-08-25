@@ -78,9 +78,18 @@ div[data-testid="stMetricDelta"] {
         color: #1a2b4c !important;
 }
     .anomaly-box {
-        background: #fff5f2; border-left: 4px solid #e0562f; border-radius: 6px;
-        padding: 0.85rem 1.1rem; margin: 0.6rem 0 1rem 0; font-size: 0.95rem;
-    }
+    background: #fff5f2;
+    color: #1a2b4c !important;
+    border-left: 4px solid #e0562f;
+    border-radius: 6px;
+    padding: 0.85rem 1.1rem;
+    margin: 0.6rem 0 1rem 0;
+    font-size: 0.95rem;
+}
+
+.anomaly-box * {
+    color: #1a2b4c !important;
+}
     .rec-card {
     background: #ffffff;
     color: #1a2b4c !important;
@@ -634,7 +643,7 @@ elif page == "Recommendations":
                 f'<div class="rec-card">'
                 f'<div class="rec-label">Recommendation</div>'
                 f'<h3 style="margin-top:0.2rem;">{rec["title"]}</h3>'
-                f'<p style="color:#8a95a8;font-size:0.8rem;margin-top:-0.4rem;">{sig_badge}</p>'
+                f'<p class="rec-sig">{sig_badge}</p>'
                 f'<b>Finding</b><p>{rec["finding"]}</p>'
                 f'<b>Evidence</b><p>{rec["evidence"]}</p>'
                 f'<b>Operational Implication</b><p>{rec["implication"]}</p>'
