@@ -35,11 +35,35 @@ CUSTOM_CSS = """
         letter-spacing: 0.03em; margin-bottom: 0.6rem;
     }
     .subtitle-text { color: #5b6b85; font-size: 1.02rem; margin-bottom: 1.1rem; }
-    div[data-testid="stMetric"] {
-        background: #f7f9fc; border: 1px solid #e6eaf1; border-radius: 10px;
-        padding: 0.9rem 1rem 0.6rem 1rem;
-    }
-    div[data-testid="stMetricLabel"] { font-size: 0.82rem; color: #5b6b85; font-weight: 600; }
+    /* KPI metric cards */
+div[data-testid="stMetric"] {
+    background: #f7f9fc;
+    border: 1px solid #e6eaf1;
+    border-radius: 10px;
+    padding: 0.9rem 1rem 0.6rem 1rem;
+}
+
+/* KPI label */
+div[data-testid="stMetricLabel"] {
+    font-size: 0.82rem;
+    color: #5b6b85 !important;
+    font-weight: 600;
+}
+
+/* KPI NUMBER — this fixes the white text */
+div[data-testid="stMetricValue"] {
+    color: #1a2b4c !important;
+}
+
+/* Sometimes Streamlit puts the number inside another div */
+div[data-testid="stMetricValue"] > div {
+    color: #1a2b4c !important;
+}
+
+/* KPI delta */
+div[data-testid="stMetricDelta"] {
+    color: #5b6b85 !important;
+}
     .insight-box {
         background: #eef4ff; border-left: 4px solid #3a6cf0; border-radius: 6px;
         padding: 0.85rem 1.1rem; margin: 0.6rem 0 1rem 0; font-size: 0.95rem;
