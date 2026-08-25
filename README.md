@@ -19,9 +19,6 @@ out at every stage. The central operational question this app answers:
 > **Where are patients dropping out of the MSK care journey, what operational factors are
 > associated with that drop-off, and what should the organization investigate next?**
 
-This is the kind of ambiguous, high-leverage question a Senior Data Scientist is asked to
-turn into a clear, defensible, and actionable analysis.
-
 ## Approach
 
 ```text
