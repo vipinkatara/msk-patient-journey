@@ -191,7 +191,7 @@ if st.sidebar.button("↺ Reset Filters"):
 st.sidebar.markdown("---")
 st.sidebar.caption(
     "Portfolio prototype. All data is synthetically generated. No real patient, "
-    "provider, clinic, or Flagler Health data is used or represented."
+    "provider or clinic data is used or represented."
 )
 
 
